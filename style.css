@@ -1,0 +1,402 @@
+
+body{
+
+    font-family: 'Gentium Book Plus', serif;
+
+    font-family: 'Great Vibes', cursive;
+
+    font-family: 'Lobster', cursive;
+
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.main-section{
+margin: 40px 100px;
+
+
+}
+
+
+.container{
+background-color: black;
+height: 500px;
+border-radius: 40px;
+padding: 10px 25px;
+margin-bottom: 90px;
+
+
+}
+
+
+.top-header{
+    display: flex;
+    
+
+    color: white;
+}
+.top-info{
+    padding: 0 15px;
+    width: 50%;
+
+}
+
+
+.top-image{
+   
+    width: 50%;
+}
+
+.top-image img{
+   
+    width: 100%;
+   
+}
+.button{
+   
+    text-decoration: none;
+    background-color: rgb(233, 23, 23);
+    padding: 7px;
+    border-radius: 5px;
+    color: white;
+    margin-left: 10px;
+    justify-content: center;
+}
+
+ 
+.navbar{
+    display:flex;
+  flex-direction: row;
+  padding-bottom: 40px;
+  background-color: white;
+}
+.nav-menu{
+   
+    
+}
+
+.nav{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    border-radius: 5px;
+    width: 220px;
+    padding: 5px;
+    height: 200px;
+    margin-right:10px ;
+}
+
+
+
+
+.nav a{
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    font-size: 1em;
+    border-radius: 5px;
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+} 
+  
+
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 10px;
+}
+
+.blog{
+    border: 1px solid green;
+    border-radius: 5px;
+}
+
+/* For match.html start here*/
+
+
+.blogs.match-image{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 10px;
+}
+
+.match-image{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+
+}
+.match-image img{
+
+}
+
+/* For match.html end here */
+
+
+
+
+.blog-image img{
+   width: 100%;
+   height:300px;
+}
+
+.blog-desc{
+padding: 15px;
+
+}
+
+
+
+.update{
+    display: flex;
+    flex-direction: row;
+}
+
+  
+.hidden{
+    visibility: hidden;
+}
+
+
+/* footer start here */
+.footer-section{
+padding: 45px;
+background-color: black;
+color: aliceblue;
+text-align: center;
+
+
+
+}
+
+.footer-menu{
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: center;
+    padding-top: 10px;
+
+
+
+}
+.footer-menu a{
+    text-decoration: none;
+    color: aliceblue;
+    margin: 7px;
+    padding: 5px;
+    background-color: rgb(184, 82, 51);  
+    border-radius: 5px;
+
+   
+
+
+
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  .media{
+    margin-top: 10px;  }
+  .media a{
+    margin: 5px;
+  }
+/* footer endhere */
+/* .footer-menu a:hover{
+    background-color: rgb(173, 168, 162);
+
+   
+
+
+
+} */
+
+
+/* Response for small phone start here */
+@media only screen and (max-width: 600px) {
+    
+    .top-header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      
+    
+        color: white;
+    }
+  
+        .top-header{
+            padding: 5px ;
+        }
+        .container{
+            background-color: black;
+            height: 100%;
+            border-radius: 40px;
+            padding: 5px 5px;
+            margin-bottom: 40px;
+            
+            }
+            .top-image,.top-info {
+   
+                width: 100%;
+                margin-bottom: 10px;
+            }
+            .top-image img{
+                margin-bottom: 10px;
+            }
+
+            /* .ellipsis {
+                white-space: nowrap; 
+                width: 50px; 
+                overflow: hidden;
+                text-overflow: "----"; 
+                border: 1px solid #000000;
+              }
+               */
+            
+
+
+        .navbar{
+            display:flex;
+          flex-direction: column;
+          padding-bottom: 40px;
+          background-color: white;
+          margin: 10px 0;
+        }
+
+
+        .blogs{
+            display: flex;
+            flex-direction: column;
+            margin: 10px 0;
+
+        }
+         
+
+
+
+
+
+        .blogs.match-image{
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            grid-gap: 10px;
+        }
+        .footer-menu{
+            text-decoration: none;
+            display: flex;
+            flex-direction: column;
+            
+            justify-content: center;
+            padding-top: 10px;
+        
+        }
+
+    
+        
+  }
+
+/* Response for small  end here */
+
+
+
+/* Response for tablet  start here */
+
+@media only screen and (min-width: 600px) and (max-width:991px) {
+   
+
+    .top-image img{
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .navbar{
+        display:flex;
+      flex-direction: column;
+      padding-bottom: 40px;
+      background-color: white;
+    }
+
+
+    .nav{
+        display:grid;
+        grid-template-columns:repeat(3,1fr);
+        background-color: black;
+        border-radius: 5px;
+       width: 100%;
+       height: 100%;
+        padding: 5px;
+   
+        
+    }
+    .nav-menu{
+        margin-bottom:10px ;
+    }
+
+    .blogs{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 10px;
+    }
+    .button{
+    
+        width: 100px;
+        height: 100px;
+        background: red;
+        position: relative;
+        animation: myfirst 5s 1;
+        animation-direction: alternate;
+      }
+      
+      @keyframes myfirst {
+         0% {background: red; left: 0px; top: 0px;}
+         25% {background: yellow; left: 100px; right: 0px;}
+         50% {background: blue; left: 100px ; right: 0px;}
+         
+      }
+
+      .hidden a{
+        text-decoration: none;
+        color: whitesmoke;
+        text-align: center;
+      }
+
+      .hidden{
+        visibility: visible;
+        background-color: #991b0a;
+        border-radius: 5px;
+        color: beige;
+        padding: 5px;
+        text-align: center;
+        align-items: center;
+        width: 150px;
+      }
+     
+  }
+
+
+  /* Responsive for tablet  end here */
